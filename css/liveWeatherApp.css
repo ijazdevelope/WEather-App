@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    background: url(../images/clear3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom center;
+    overflow: hidden;
+    font-family: fantasy;
+}
+.app_main{
+    width: 50vh;
+    margin: 40px auto;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    /* background: rgba(240,248,255,.5); */
+    padding: 20px;
+    text-align: center;
+}
+.app_main > *{
+    margin-bottom: 20px;
+}
+.inputBox{
+    width: 100%;
+    background: rgba(255,255,255,.5);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 2px 0;
+}
+.inputBox:focus{background: rgba(255,255,255)}
+.weatherBody{
+    display: none;
+    color: #582233;
+    padding: 20px;
+    line-height: 2rem;
+    /* border: 1px solid; */
+    border-radius: 8px;
+    background: rgba(240,248,255,.5);
+    /* height: 50vh; */
+    height: 65vh;
+}
+.locationDetails{
+    font-weight: bold;
+    /* border: 1px solid red;       */
+}
+.weatherStatus{
+    /* border: 1px solid blue; */
+    padding: 20px;
+    /* background: red; */
+    /* height: 250px;       */
+}
+.temp{
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    /* background: red; */
+    text-shadow: 2px 4px rgba(240,248,255);
+}
+.min_Max, .weather{
+    font-size: 12pt;
+    /* border: 1px solid yellow; */
+    font-weight: 600;
+}
+.digitalClock{
+    /* border: 1px dotted green; */
+    height: 25%;
+    display: flex;
+}
+.digitalClock > div{
+    background: rgba(240,248,255);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #111);
+    border-radius: 5px;
+    margin: 5px;
+    width: 67px;
+    height: 55px;
+    padding: 10px 0;
+}
+i{
+    font-size: 50px;
+    color: red;
+}
